@@ -12,10 +12,18 @@
 
     <div class="header">
         <h6>Select the size</h6>
-        <button id="popup" class="button">Enter</button>
+        <button id="popup" class="button">Enter Size</button>
     </div>
-
+    <p id="message"></p>
+    <p id="draw"></p>
         <div class="board"></div>
+
+
+    <footer class="footer-div">
+        <button id="black" onclick="setColor('black')">black</button>
+        <button id="random" onclick="setColor('random')">random</button>
+        <button id="reset" onclick="resetBoard()">reset</button>
+    </footer>
 </body>
 
 </html>
